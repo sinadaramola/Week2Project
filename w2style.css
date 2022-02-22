@@ -151,7 +151,7 @@ footer i {
 /* "Automagic" image grid using no media queries */
 .work-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   grid-gap: 4rem;
   width: 100%;
   max-width: 1280px;
@@ -187,7 +187,7 @@ footer i {
 .work-image {
   height: calc(100% - 6.8rem);
   width: 100%;
-  object-fit: cover;
+  object-fit: contain ;
 }
 
 .work-title {
